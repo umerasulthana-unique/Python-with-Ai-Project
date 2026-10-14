@@ -87,16 +87,4 @@ Running `main.py` displays a dataset preview, dataset dimensions, class summary,
 
 The optional chart script saves PNG charts to `outputs/`.
 
-## 9. Assessment alignment
-This project demonstrates variables, data types, loops, functions, conditions, NumPy, Pandas, data loading, data validation, and analysis as requested by the assignment. Advanced machine learning is not included.
 
-## 10. GitHub submission checklist
-1. Create a repository named `student-performance-analytics`.
-2. Upload the project files and dataset.
-3. Include this `README.md` and `Project_Documentation.md`.
-4. Run the program and verify generated files.
-5. Copy the repository URL.
-6. Submit the URL through the Google Form provided by EWB Courses.
-7. Check that the repository is accessible as instructed by your trainer.
-
-The assignment PDF does not provide the actual Google Form URL, so obtain it from EWB Courses or your trainer.
