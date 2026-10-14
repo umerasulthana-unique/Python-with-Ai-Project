@@ -1,0 +1,109 @@
+DATASET PREVIEW
+Student_ID         Name Department  Python  Mathematics  Data_Analytics  Computer_Networks  Database_Management  Attendance
+      S001  Ayesha Khan        BCA      88           91              85                 90                   87          94
+      S002 Rahul Sharma        BCA      76           72              80                 78                   74          88
+      S003   Priya Nair        BCA      95           93              96                 92                   94          98
+      S004    Arjun Rao        BCA      34           45              38                 42                   40          68
+      S005  Sana Fatima        BCA      82           85              79                 88                   81          91
+      S006  Kiran Kumar        BCA      67           70              65                 72                   69          82
+      S007    Meera Das        BCA      91           89              94                 90                   92          96
+      S008 Vikram Singh        BCA      48           55              42                 51                   46          73
+      S009  Nisha Patel        BCA      79           84              77                 81                   80          89
+      S010   Farhan Ali        BCA      58           62              55                 60                   57          77
+
+Dataset shape: 25 rows x 9 columns
+
+DATASET INFORMATION
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 25 entries, 0 to 24
+Data columns (total 9 columns):
+ #   Column               Non-Null Count  Dtype 
+---  ------               --------------  ----- 
+ 0   Student_ID           25 non-null     object
+ 1   Name                 25 non-null     object
+ 2   Department           25 non-null     object
+ 3   Python               25 non-null     int64 
+ 4   Mathematics          25 non-null     int64 
+ 5   Data_Analytics       25 non-null     int64 
+ 6   Computer_Networks    25 non-null     int64 
+ 7   Database_Management  25 non-null     int64 
+ 8   Attendance           25 non-null     int64 
+dtypes: int64(6), object(3)
+memory usage: 1.9+ KB
+None
+
+========================================================================================
+       STUDENT PERFORMANCE ANALYTICS SYSTEM
+========================================================================================
+Students: 25 | Passed: 22 | Failed: 3
+Class average: 70.58/100
+Highest average: 96.00 (Sameer Khan)
+Lowest average: 36.40 (Lakshmi Prasad)
+Students with attendance below 75%: 5
+
+STUDENT RESULTS (sorted by average, highest first)
+Student_ID           Name Department  Total_Marks  Average_Marks Grade Result  Attendance Attendance_Status  Rank
+      S020    Sameer Khan        BCA        480.0           96.0    A+   Pass          99      Satisfactory     1
+      S003     Priya Nair        BCA        470.0           94.0    A+   Pass          98      Satisfactory     2
+      S013    Ananya Iyer        BCA        469.0           93.8    A+   Pass          97      Satisfactory     3
+      S007      Meera Das        BCA        456.0           91.2    A+   Pass          96      Satisfactory     4
+      S017     Zara Begum        BCA        450.0           90.0    A+   Pass          93      Satisfactory     5
+      S001    Ayesha Khan        BCA        441.0           88.2     A   Pass          94      Satisfactory     6
+      S011   Divya Shetty        BCA        435.0           87.0     A   Pass          95      Satisfactory     7
+      S024 Siddharth Jain        BCA        419.0           83.8     A   Pass          92      Satisfactory     8
+      S005    Sana Fatima        BCA        415.0           83.0     A   Pass          91      Satisfactory     9
+      S019      Kavya Rao        BCA        408.0           81.6     A   Pass          90      Satisfactory    10
+      S009    Nisha Patel        BCA        401.0           80.2     A   Pass          89      Satisfactory    11
+      S002   Rahul Sharma        BCA        380.0           76.0     B   Pass          88      Satisfactory    12
+      S021    Ishita Bose        BCA        369.0           73.8     B   Pass          86      Satisfactory    13
+      S014    Imran Ahmed        BCA        355.0           71.0     B   Pass          85      Satisfactory    14
+      S023    Fatima Noor        BCA        346.0           69.2     C   Pass          84      Satisfactory    15
+      S006    Kiran Kumar        BCA        343.0           68.6     C   Pass          82      Satisfactory    16
+      S015    Pooja Verma        BCA        324.0           64.8     C   Pass          80      Satisfactory    17
+      S010     Farhan Ali        BCA        292.0           58.4     D   Pass          77      Satisfactory    18
+      S022   Naveen Kumar        BCA        276.0           55.2     D   Pass          79      Satisfactory    19
+      S016   Aditya Joshi        BCA        261.0           52.2     D   Pass          75      Satisfactory    20
+      S008   Vikram Singh        BCA        242.0           48.4     F   Pass          73    Low Attendance    21
+      S018    Rohit Menon        BCA        216.0           43.2     F   Pass          72    Low Attendance    22
+      S004      Arjun Rao        BCA        199.0           39.8     F   Fail          68    Low Attendance    23
+      S012    Manoj Reddy        BCA        194.0           38.8     F   Fail          70    Low Attendance    24
+      S025 Lakshmi Prasad        BCA        182.0           36.4     F   Fail          64    Low Attendance    25
+
+SUBJECT-WISE AVERAGES
+Python                   : 69.72
+Mathematics              : 71.00
+Data Analytics           : 70.24
+Computer Networks        : 71.92
+Database Management      : 70.04
+Best-performing subject: Computer Networks
+Lowest-performing subject: Python
+
+SUBJECT TOPPERS
+Python                   : Sameer Khan
+Mathematics              : Ananya Iyer
+Data Analytics           : Sameer Khan
+Computer Networks        : Sameer Khan
+Database Management      : Sameer Khan
+
+TOP 5 STUDENTS
+ Rank Student_ID        Name  Average_Marks Grade
+    1       S020 Sameer Khan           96.0    A+
+    2       S003  Priya Nair           94.0    A+
+    3       S013 Ananya Iyer           93.8    A+
+    4       S007   Meera Das           91.2    A+
+    5       S017  Zara Begum           90.0    A+
+
+Saved results to: /mnt/data/Student-Performance-Analytics/outputs
+
+Enter a Student ID to search (or press Enter to finish): 
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

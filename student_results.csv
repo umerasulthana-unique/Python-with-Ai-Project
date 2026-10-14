@@ -1,0 +1,26 @@
+Student_ID,Name,Department,Python,Mathematics,Data_Analytics,Computer_Networks,Database_Management,Attendance,Total_Marks,Average_Marks,Grade,Result,Rank,Attendance_Status
+S020,Sameer Khan,BCA,97,94,98,96,95,99,480.0,96.0,A+,Pass,1,Satisfactory
+S003,Priya Nair,BCA,95,93,96,92,94,98,470.0,94.0,A+,Pass,2,Satisfactory
+S013,Ananya Iyer,BCA,93,95,91,96,94,97,469.0,93.8,A+,Pass,3,Satisfactory
+S007,Meera Das,BCA,91,89,94,90,92,96,456.0,91.2,A+,Pass,4,Satisfactory
+S017,Zara Begum,BCA,89,92,88,91,90,93,450.0,90.0,A+,Pass,5,Satisfactory
+S001,Ayesha Khan,BCA,88,91,85,90,87,94,441.0,88.2,A,Pass,6,Satisfactory
+S011,Divya Shetty,BCA,86,88,90,84,87,95,435.0,87.0,A,Pass,7,Satisfactory
+S024,Siddharth Jain,BCA,84,81,86,83,85,92,419.0,83.8,A,Pass,8,Satisfactory
+S005,Sana Fatima,BCA,82,85,79,88,81,91,415.0,83.0,A,Pass,9,Satisfactory
+S019,Kavya Rao,BCA,80,78,83,85,82,90,408.0,81.6,A,Pass,10,Satisfactory
+S009,Nisha Patel,BCA,79,84,77,81,80,89,401.0,80.2,A,Pass,11,Satisfactory
+S002,Rahul Sharma,BCA,76,72,80,78,74,88,380.0,76.0,B,Pass,12,Satisfactory
+S021,Ishita Bose,BCA,73,76,71,75,74,86,369.0,73.8,B,Pass,13,Satisfactory
+S014,Imran Ahmed,BCA,71,68,74,70,72,85,355.0,71.0,B,Pass,14,Satisfactory
+S023,Fatima Noor,BCA,68,73,66,70,69,84,346.0,69.2,C,Pass,15,Satisfactory
+S006,Kiran Kumar,BCA,67,70,65,72,69,82,343.0,68.6,C,Pass,16,Satisfactory
+S015,Pooja Verma,BCA,64,66,61,68,65,80,324.0,64.8,C,Pass,17,Satisfactory
+S010,Farhan Ali,BCA,58,62,55,60,57,77,292.0,58.4,D,Pass,18,Satisfactory
+S022,Naveen Kumar,BCA,55,58,52,57,54,79,276.0,55.2,D,Pass,19,Satisfactory
+S016,Aditya Joshi,BCA,52,48,57,54,50,75,261.0,52.2,D,Pass,20,Satisfactory
+S008,Vikram Singh,BCA,48,55,42,51,46,73,242.0,48.4,F,Pass,21,Low Attendance
+S018,Rohit Menon,BCA,43,38,49,45,41,72,216.0,43.2,F,Pass,22,Low Attendance
+S004,Arjun Rao,BCA,34,45,38,42,40,68,199.0,39.8,F,Fail,23,Low Attendance
+S012,Manoj Reddy,BCA,39,32,45,41,37,70,194.0,38.8,F,Fail,24,Low Attendance
+S025,Lakshmi Prasad,BCA,31,42,34,39,36,64,182.0,36.4,F,Fail,25,Low Attendance

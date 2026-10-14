@@ -1,0 +1,12 @@
+Students: 25
+Passed: 22
+Failed: 3
+Class average: 70.58
+Highest average: 96.0 (Sameer Khan)
+Lowest average: 36.4 (Lakshmi Prasad)
+Subject averages:
+Python                 69.72
+Mathematics            71.00
+Data_Analytics         70.24
+Computer_Networks      71.92
+Database_Management    70.04
